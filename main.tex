@@ -1,0 +1,27 @@
+\typeout{ ====================================================================}
+\typeout{ this is file main.tex, created at 02-Jun-2016               }
+\typeout{ maintained by Gustavo Rabello dos Anjos                             }
+\typeout{ e-mail: gustavo.rabello@gmail.com                                   }
+\typeout{ ====================================================================}
+
+\input{preamble}
+
+\begin{document}	
+% no page numbering
+\pagenumbering{gobble}
+
+\input{header}
+
+\begin{multicols}{2}
+\begin{enumerate}
+\foreach \i in {1,...,40} {%
+ \item \sline
+}
+\end{enumerate}
+\end{multicols}
+
+
+\end{document}
+
+\typeout{ ****************** End of file main.tex ****************** }
+
